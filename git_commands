@@ -1,0 +1,28 @@
+Github useful commands:
+
+git help 
+
+
+git init
+git clone
+
+git add
+git mv
+git rm
+git reset
+
+
+
+git commit -a     
+
+
+git push          Update remote refs along with associated objects
+git pull
+git fetch
+
+
+git status
+git log
+git show
+
+
