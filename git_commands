@@ -12,7 +12,7 @@ git rm
 git reset
 
 
-
+git commit -m
 git commit -a     
 
 
