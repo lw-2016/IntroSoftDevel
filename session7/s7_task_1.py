@@ -3,7 +3,5 @@ def mystery(x, y):
         print(result)
         return result
 
-
-
-mystery(2,3)
+mystery(2,3) #call function
 
