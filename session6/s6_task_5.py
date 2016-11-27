@@ -12,7 +12,7 @@ print("split: ", x , "\n")
 
 
 #sort
-x.sort
+x.sort()
 print("sort alphabetically: ", x, "\n")
 
 #total number of words
@@ -20,18 +20,35 @@ print ("you have entered in total " , len(x), "words \n")
 
 
 
-i=1
-for i in range (len(x)):
-    i=i+1
-    print(i,{})
+a=dict([i, a.count(i)] for i in a)
+print(a)
+           
+for i in a:
+    print (i,a[i])
+
+
+for i in x:
+    print (i, "=", x.count(i))
+
+
+
+
+
+
+
+print()
+for i in range(len(x)) :
+    print(i, x[i])
+
     
-
-
-
-    
-
-
 '''
+for i in range(len(x)):
+    print (i, x.count(1))
+    
+x=x.count(x)
+print(x)
+
+
 print("\n")
 print("print each item:\n")
 #print each item from dictionary
@@ -40,6 +57,7 @@ for i in x:
     print (i)
     i+=1
 
+
+
+
 '''
-
-
