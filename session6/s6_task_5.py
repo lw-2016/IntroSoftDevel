@@ -19,12 +19,13 @@ print("sort alphabetically: ", x, "\n")
 print ("you have entered in total " , len(x), "words \n")
 
 
-
-a=dict([i, a.count(i)] for i in a)
-print(a)
+a1=a
+a1=dict([i, a1.count(i)] for i in a1)
+print(a1)
            
-for i in a:
-    print (i,a[i])
+
+
+
 
 
 for i in x:
@@ -47,6 +48,9 @@ for i in range(len(x)):
     
 x=x.count(x)
 print(x)
+
+for i in a:
+    print (i,a[i])
 
 
 print("\n")
