@@ -17,17 +17,21 @@ print("sort alphabetically: ", spl, "\n")
 
 #total number of words
 print ("You have entered in total " , len(spl), "words \n")
-
-#create dictionary which counts word occurrences
 print()
-print("Here are your words together with occurrences:")
-for item in spl:
-    dictio={item : spl.count(item)}
-    print(dictio)
+
+#create dictionary, which counts word occurrences
+dictio=dict()
+for key in spl:
+    dictio[key]=spl.count(key)
+print("Here are dictionary of words together with occurrences:",dictio)
+print()
 
 #prints each item from dictionary
-print()
-print("Here is each item from your input:")
-for item in range(len(spl)) :
-    print( spl[item])
+print("This is list of dictionary keys entered: ")
+for i in dictio:
+    print(i)
+
+
+
+
     

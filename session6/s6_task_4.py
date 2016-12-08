@@ -8,7 +8,7 @@ while (userInput != ""):
 
 
 #print list in easy to read format
-print("Tnak you for shopping")
+print("Thank you for shopping")
 print ("this is your shopping list: \n")
 
 for i in shoppingList:

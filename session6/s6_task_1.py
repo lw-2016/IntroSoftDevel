@@ -9,11 +9,12 @@ a =[66.25, 333, -1, 333, 1, 1234.5]
 a.append(333)
 print("List after inserting -1 and appending 333 is:\t" ,a)
 
-#index
+#index 333 displays 1 because 333 is in index position 1 ,66.25 is 0
 a= [66.25, 333, -1, 333, 1, 1234.5, 333]
-a.index(333)
-print("List after indexing: \t\t\t\t" ,a)
-
+indexing=a.index(333)
+indexing1=a.index(1234.5)
+print("List indexing(333) : \t\t\t\t" ,indexing)
+print("List indexing(1234.5) : \t\t\t" ,indexing1)
 #list after a.remove(333), removes first 333 in list
 r=[66.25, 333, -1, 333, 1, 1234.5, 333]
 r.remove(333)
