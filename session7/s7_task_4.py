@@ -1,20 +1,17 @@
-##4. Consider this function that
-##prints a page number on the left
-##or right side of a page:
+#construct function 
+def main():   
+    page = 555  #odd page number
+# if page number is even, function returns Boolean True
 
-def main():
-    page = int(input("Enter page number: "))
-    if page % 2 == 0:
-        return True
-    
+    if page % 2 == 0:  
+         print(page,True)
+         return True
+# if page number is odd, function returns Boolean False 
     else:
-            print("%60s%d" % (" ", page))
+            print("%60s%d" % (" ", page),False) 
+            return False
 
 
+main() #call function
 
 
-main()
-
-##Introduce a function that returns a Boolean
-##to make the condition
-##in the if statement easier to understand.
